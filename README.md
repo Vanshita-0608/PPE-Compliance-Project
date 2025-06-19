@@ -21,11 +21,11 @@ It provides real-time analysis, visual alerts, and performance metrics to improv
 
 ## 📁 Folder Structure
 
-├── app.py/ # Streamlit Code
-├── best.pt/ # Trained model
-├── classes.txt/ # PPE (Personal Protective equipments)
-├── PPE.pbix/ # Power BI Dashboard
-├── prediction_summary.xlsx # Auto-Updated Excel sheet
-├── README.md # Project documentation
+├── app.py/ # Streamlit Code<br>
+├── best.pt/ # Trained model<br>
+├── classes.txt/ # PPE (Personal Protective equipments)<br>
+├── PPE.pbix/ # Power BI Dashboard<br>
+├── prediction_summary.xlsx # Auto-Updated Excel sheet<br>
+├── README.md # Project documentation<br>
 └── LICENSE # Open-source license
 
