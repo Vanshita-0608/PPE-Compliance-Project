@@ -1,0 +1,6 @@
+person
+glasses
+safety-vest
+helmet
+gloves
+shoes
