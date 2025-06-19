@@ -17,6 +17,10 @@ This project leverages deep learning and computer vision to detect whether indiv
   
 It provides real-time analysis, visual alerts, and performance metrics to improve workplace safety and compliance reporting.
 
+
+![Label ex](https://github.com/user-attachments/assets/dccd50d9-4e8a-4e4d-aea5-8b169fc2e370)
+
+
 ---
 
 ## 📁 Folder Structure
