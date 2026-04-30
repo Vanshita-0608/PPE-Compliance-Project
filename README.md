@@ -25,7 +25,7 @@ It provides real-time detection, visual alerts, and automated data logging to im
 
  📊 PPE Compliance Dashboard
 
-![Dashboard![Uploading Worker Safety Analysis Dashboard.jpg…]()
+![Dashboard](./Worker%20Safety%20Analysis%20Dashboard.jpg)
 )
 
 The dashboard provides insights into:
