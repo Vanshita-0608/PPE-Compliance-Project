@@ -2,20 +2,20 @@
 
 # 🦺 PPE Compliance Monitoring System Using AI
 
-A smart AI-powered monitoring system designed to detect and ensure PPE (Personal Protective Equipment) compliance in hazardous work environments such as construction sites, factories, and industrial zones.
+🚀 End-to-end AI-powered PPE compliance monitoring system using YOLOv8, Streamlit, and Power BI for real-time detection, automated logging, and safety analytics.
 
 ## 📌 Project Overview
 
-This project leverages deep learning and computer vision to detect whether individuals in a workspace are wearing mandatory protective gear such as:
+This project leverages deep learning and computer vision to detect whether individuals in a workspace are wearing mandatory Personal Protective Equipment (PPE), including:
 
-- person
-- glasses
-- safety-vest
-- helmet
-- gloves
-- shoes
-  
-It provides real-time analysis, visual alerts, and performance metrics to improve workplace safety and compliance reporting.
+- Person  
+- Glasses  
+- Safety Vest  
+- Helmet  
+- Gloves  
+- Shoes  
+
+It provides real-time detection, visual alerts, and automated data logging to improve workplace safety and compliance monitoring.
 
 
 ![Label ex](https://github.com/user-attachments/assets/dccd50d9-4e8a-4e4d-aea5-8b169fc2e370)
@@ -23,13 +23,57 @@ It provides real-time analysis, visual alerts, and performance metrics to improv
 
 ---
 
-## 📁 Folder Structure
+ 📊 PPE Compliance Dashboard
 
-├── app.py/ # Streamlit Code<br>
-├── best.pt/ # Trained model<br>
-├── classes.txt/ # PPE (Personal Protective equipments)<br>
-├── PPE.pbix/ # Power BI Dashboard<br>
-├── prediction_summary.xlsx # Auto-Updated Excel sheet<br>
-├── README.md # Project documentation<br>
-└── LICENSE # Open-source license
+![Dashboard![Uploading Worker Safety Analysis Dashboard.jpg…]()
+)
+
+The dashboard provides insights into:
+
+- PPE compliance trends  
+- Risk classification (High / Medium / Low)  
+- Frequent safety violations  
+
+**Key Insight:** Majority of cases fall under high-risk category due to missing helmet and safety vest.
+🛠️ Tech Stack
+
+- Python  
+- YOLOv8 (Computer Vision Model)  
+- Streamlit (Web Interface)  
+- Power BI (Dashboard & Analytics)  
+- Excel (Data Logging)
+
+- ⚙️ System Workflow
+
+1. Input image/video is provided  
+2. YOLOv8 model detects PPE components  
+3. Detection results are logged in an Excel file  
+4. Data is visualized in Power BI dashboard  
+5. Insights help identify safety risks and trends  
+
+ 📊 Model Performance
+
+- Detection Accuracy: ~80%  
+- PPE Classes: 6 categories  
+- Supports real-time inference via Streamlit  
+
+🏗️ Real-World Applications
+
+- Construction sites  
+- Manufacturing industries  
+- Warehouses and industrial zones  
+
+This system helps safety teams monitor compliance and take proactive actions to reduce workplace risks.
+
+---
+
+## 📁 Folder Structure
+PE-Compliance-Project/
+├── app.py # Streamlit application
+├── best.pt # Trained YOLOv8 model
+├── classes.txt # PPE class labels
+├── PPE.pbix # Power BI dashboard
+├── prediction_summary.xlsx # Auto-generated predictions log
+├── README.md # Project documentation
+└── LICENSE # License file
 
